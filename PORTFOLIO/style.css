@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f1624;
+    color: white;
+    display: flex;
+}
+.btn:hover{
+    background-color: #0f1624;
+    transform: scale(1.05);
+}
+
+.sidebar {
+    width: 260px;
+    padding: 25px;
+    background: #142442;
+    border-radius: 19px;
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.name {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+
+
+.content {
+    padding: 50px ;
+}
+
+
+.skill-box span {
+    background: #1f2937;
+    padding: 8px 14px;
+    border-radius: 6px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+
+.project-card {
+    background: #242f45;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: none;
+    background: #1f2937;
+    color: white;
+}
+
+.contact textarea {
+    height: 120px;
+}
+ 
